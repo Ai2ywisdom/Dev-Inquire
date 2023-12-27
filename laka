@@ -1,0 +1,136 @@
+  <!--For a nice div here-->
+ <div class="container-fluid bg-secondary py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 wow fadeIn" data-wow-delay=".1s">
+                    <div class="d-flex counter">
+                        <h1 class="me-3 text-primary counter-value">20</h1>
+                        <h5 class="text-white mt-1">successful Code Campeigns</h5>
+                    </div>
+                </div>
+                <div class="col-lg-3 wow fadeIn" data-wow-delay=".3s">
+                    <div class="d-flex counter">
+                        <h1 class="me-3 text-primary counter-value">5</h1>
+                        <h5 class="text-white mt-1">Upcoming Events for the year 2024</h5>
+                    </div>
+                </div>
+                <div class="col-lg-3 wow fadeIn" data-wow-delay=".5s">
+                    <div class="d-flex counter">
+                        <h1 class="me-3 text-primary counter-value">20</h1>
+                        <h5 class="text-white mt-1">Members and still counting</h5>
+                    </div>
+                </div>
+                <div class="col-lg-3 wow fadeIn" data-wow-delay=".7s">
+                    <div class="d-flex counter">
+                        <h1 class="me-3 text-primary counter-value">1</h1>
+                        <h5 class="text-white mt-1">Associate School</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--End of a nice Div-->
+
+
+
+
+<!--For About section-->
+    <div class="container-fluid py-5 my-5">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-5 col-md-6 col-sm-12 wow fadeIn" data-wow-delay=".3s">
+                    <div class="h-100 position-relative">
+                        <img src="pics/gamedev.jpg" class="img-fluid w-75 rounded" alt="" style="margin-bottom: 25%;">
+                        <div class="position-absolute w-75" style="top: 25%; left: 25%;">
+                            <img src="pics/HELLO.jpg" class="img-fluid w-100 rounded" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-6 col-sm-12 wow fadeIn" data-wow-delay=".5s">
+                    <h5 class="text-primary" style="border-bottom: 4px solid orange; color: blue!important; font-weight: 400; font-size: 2rem;">ABOUT US</h5>
+                    <h1 class="mb-4">About Dev inquire </h1>
+                    <p>Empowering Zambia's Future: Our goal at Dev Inquire is to revolutionize mindsets across Zambia and beyond,
+                        fostering a culture of technological prowess and innovation. We aim to create an inclusive environment that nurtures, 
+                        shares, and educates individuals of all ages and backgrounds in the realm of technology. 
+                        Through a multifaceted approach encompassing school campaigns, workshops, and diverse programs, 
+                        we strive to introduce and advance knowledge in fields such as machine learning, embedded systems</p>
+                    <p class="mb-4">game development, and various programming disciplines. Our mission is to ignite curiosity, 
+                        inspire learning, and equip every enthusiast with the tools and skills needed to thrive in the dynamic landscape of technology, 
+                        paving the way for a brighter, more empowered tomorrow</p>
+                    <a href="" class="btn btn-secondary rounded-pill px-5 py-3 text-white">More Details</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--About section end -->
+
+
+
+    <!-- Team Start -->
+    
+   <!--End of team-->
+    <section class="footernav">  <footer class="footer">
+        <div class="footer__addr">
+          <h1 class="footer__logo">@Dev-Inquire</h1>
+              
+          <h2>Contact</h2>
+          
+          <address>
+            Lusaka Zambias Chipata Maplot<br>
+                
+            <a class="footer__btn" href="mkamkamfwawisdom@gmail.com">Email Us</a>
+          </address>
+        </div>
+        
+        <ul class="footer__nav">
+          <li class="nav__item">
+            <h2 class="nav__title">Media</h2>
+      
+            <ul class="nav__ul">
+              <li>
+                <a href="#">3D Animation</a>
+              </li>
+      
+              <li>
+                <a href="#">Graphic Designing</a>
+              </li>
+            </ul>
+          </li>
+          
+          <li class="nav__item nav__item--extra">
+            <h2 class="nav__title">Technology</h2>
+            
+            <ul class="nav__ul nav__ul--extra">
+              <li>
+                <a href="#">Hardware Design</a>
+              </li>
+              
+              <li>
+                <a href="#">Software Design</a>
+              </li>
+    
+              <li>
+                <a href="#">Automation</a>
+              </li>
+              
+              <li>
+                <a href="#">Artificial Intelligence</a>
+              </li>
+              
+              <li>
+                <a href="#">Game Development</a>
+              </li>
+            </ul>
+          </li>
+          
+        </ul>
+        
+        <div class="legal">
+          <p>&copy; 2023 Dev-Inquire. All rights reserved.</p>
+          
+          <div class="legal__links">
+            <span>Designed <span class="heart">and</span> maintaned by Wisdom Kakusa </span>
+          </div>
+        </div>
+      </footer></section>

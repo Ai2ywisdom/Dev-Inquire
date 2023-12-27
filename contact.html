@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Dev Inquire</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Saira:wght@500;600;700&display=swap" rel="stylesheet"> 
+    
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <style>
+        /* Your custom contact page styles */
+        /* ... */
+        .contact-page {
+            padding: 80px 0;
+            background-color: #f7f7f7;
+        }
+
+        .contact-page h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .contact-page p {
+            font-size: 1.1rem;
+            color: #666;
+            margin-bottom: 30px;
+        }
+
+        .contact-form {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .form-label {
+            font-weight: 600;
+            color: #333;
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            transition: border-color 0.3s;
+        }
+
+        .form-control:focus {
+            outline: none;
+            border-color: #007bff;
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+            border: none;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+        }
+
+        .contact-info {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-info h2 {
+            font-size: 1.8rem;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .contact-info p {
+            font-size: 1.1rem;
+            color: #666;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar (You can include the existing navbar code here) -->
+    <div class="navbar">
+        <div class="logo">   <div class="darksoul-dropdown ml-50 mt-50">
+            <button class="darksoul-btn-medium white" type="button"><img src="pics/menu.png" alt="menu"></button>
+            <ul class="darksoul-dropdown-content">
+              <li class="darksoul-dropdown-item"><a class="none black" href="#">Action</a></li>
+              <li class="darksoul-dropdown-item"><a class="none black" href="#">Another action</a></li>
+              <li class="darksoul-dropdown-item"><a class="none black" href="#">Something else here</a></li>
+            </ul>
+            
+        </div>
+        
+        <div class="iconix"><img src="pics/code.png" alt="Logo"> <h1>DEV INQUIRE</h1></div>
+        
+        
+        
+        <!--For options in nav-->
+        <div class="options">
+            <a href="index.html">Home</a> 
+            <a href="about.html">about</a>
+            <a href="contact.html">contact</a>
+           <a href="events.html">events</a>
+        </div>
+        </div>
+        </div>
+    <!-- ... -->
+
+    <!-- Contact Section -->
+    <div class="container-fluid contact-page">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h1>Contact Us</h1>
+                    <p>Feel free to reach out to us for any inquiries or questions.</p>
+                    <form action="#" method="POST" class="contact-form">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Your Name</label>
+                            <input type="text" class="form-control" id="name" name="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Your Email</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#registrationModal">
+                            Register as a Student
+                        </button>
+                        
+                        <!-- Registration Modal -->
+                        <div class="modal fade" id="registrationModal" tabindex="-1" aria-labelledby="registrationModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="registrationModalLabel">Student Registration</h5>
+                                        <button type="button" class="btn-close" data-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSekxj0CT9hTlPVunLhL7rEKwSRK15LFB30lL6_lpFuUVRdu7Q/viewform?embedded=true" width="100%" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-6">
+                    <div class="contact-info">
+                        <h2>Contact Information</h2>
+                        <p>If you prefer other means of contact, you can reach us at:</p>
+                        <address>
+                            Lusaka, Zambia<br>
+                            Chipata Maplot<br>
+                            <a href="mailto:info@devinquire.com">mkamfwawisdom@gmail.com<br>
+                            Phone: +260972032803
+                        </address>
+                        <img src="pics/webdev.jpg" alt="Location Image" style="width: 100%; border-radius: 8px; margin-top: 20px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!---->
+<!-- ... (Previous HTML content) ... -->
+
+<!-- Modal Trigger Button -->
+
+
+<!-- ... (Remaining HTML content) ... -->
+
+<!---->
+    <!-- Footer Section (You can include the existing footer code here) -->
+    <section class="footernav">  <footer class="footer">
+        <div class="footer__addr">
+          <h1 class="footer__logo">@Dev-Inquire</h1>
+              
+          <h2>Contact</h2>
+          
+          <address>
+            Lusaka Zambias Chipata Maplot<br>
+                
+            <a class="footer__btn" href="mkamkamfwawisdom@gmail.com">Email Us</a>
+          </address>
+        </div>
+        
+        <ul class="footer__nav">
+          <li class="nav__item">
+            <h2 class="nav__title">Media</h2>
+      
+            <ul class="nav__ul">
+              <li>
+                <a href="#">3D Animation</a>
+              </li>
+      
+              <li>
+                <a href="#">Graphic Designing</a>
+              </li>
+            </ul>
+          </li>
+          
+          <li class="nav__item nav__item--extra">
+            <h2 class="nav__title">Technology</h2>
+            
+            <ul class="nav__ul nav__ul--extra">
+              <li>
+                <a href="#">Hardware Design</a>
+              </li>
+              
+              <li>
+                <a href="#">Software Design</a>
+              </li>
+    
+              <li>
+                <a href="#">Automation</a>
+              </li>
+              
+              <li>
+                <a href="#">Artificial Intelligence</a>
+              </li>
+              
+              <li>
+                <a href="#">Game Development</a>
+              </li>
+            </ul>
+          </li>
+          
+        </ul>
+        
+        <div class="legal">
+          <p>&copy; 2023 Dev-Inquire. All rights reserved.</p>
+          
+          <div class="legal__links">
+            <span>Designed <span class="heart">and</span> maintaned by Wisdom Kakusa </span>
+          </div>
+        </div>
+      </footer></section>
+    <!-- ... -->
+</body>
+</html>
